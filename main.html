@@ -8,15 +8,15 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method:"POST">
+	<form method="POST">
 		<label for="name">Name</label>
 		<input type="Text" required="Yes" id="name" placeholder="Name"><br>
 		<label for="email">Email</label>
 		<input type="Email" required="Yes" id="email" placeholder="Email"><br>
 		<label for="gender_m">Gender</label>
-		   Male<input type="radio" required="Yes" id="gender_m">
+		   Male<input type="radio" name="gender" required="Yes" id="gender_m">
 		<label for="gender_f"></label>
-		   Female<input type="radio" required="Yes" id="gender_f"><br>
+		   Female<input type="radio" name="gender" required="Yes" id="gender_f"><br>
 		<label for="cars">Car Brands</label>
 		<select placeholder="--Please choose an option-" id="cars" required="Yes">
 			<option>BMW</option>
@@ -33,7 +33,7 @@
 		<input type="password" required="Yes" id="password" placeholder="password"><br>
 		<label for="tos">I agree to the TOS</label>
 		<input type="Checkbox" required="Yes" id="tos"><br>
-		<button>Submit</button>
+		<button type="submit">Submit</button>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
